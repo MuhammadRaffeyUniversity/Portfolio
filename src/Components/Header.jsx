@@ -8,24 +8,20 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div
-      style={{
-        position: "fixed",
-        display: "flex",
-        justifyContent: "center",
-        gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
-        padding: "1rem",
-        top: 0,
-        width: "100%",
-        zIndex: 10,
-      }}
-    >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
-    </div>
+    <nav className="fixed flex justify-center gap-8 bg-blue-700 bg-opacity-75 p-4 top-0 w-full z-10 border-4 border-gray-600 rounded-lg">
+      <a href="#home" className="text-white font-bold text-2xl">
+        Home
+      </a>
+      <a href="#about" className="text-white font-bold text-2xl">
+        About
+      </a>
+      <a href="#portfolio" className="text-white font-bold text-2xl">
+        Portfolio
+      </a>
+      <a href="#footer" className="text-white font-bold text-2xl">
+        Contact
+      </a>
+    </nav>
   );
 };
 

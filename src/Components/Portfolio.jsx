@@ -61,10 +61,11 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+        <div style={{ maxWidth: "30%", alignSelf: "center" }} className="ml-4 mr-10">
           <img
             src={image}
             style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            className="rounded-sm border-8 border-gray-700 p-2"
             alt={imageAltText}
           />
         </div>
