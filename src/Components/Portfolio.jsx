@@ -31,28 +31,32 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "E commerce WebSite in NextJS🎉",
+    description: "Simple E commerce website in NextJS with Tailwind CSS and Sanity.io",
+    url: "https://raffeys-e-commerce.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Simple Blog in NextJS🎉",
+    description: "A Blog Website in NextJS integrating Sanity.",
+    url: "https://sanity-blog-ten.vercel.app/",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://muhammadraffeyuniversity.github.io/Portfolio/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Tic Tac Toe Game",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A simple Tic Tac Toe game created using NextJS. This was a fun project to create and helped me learn more about NextJS.",
+    url: "https://tic-tac-toe-opal-mu.vercel.app/",
+  },
+  {
+    title: "Todo App",
+    description:
+      "A simple Todo App created using NextJS. This was a fun project to create and helped me learn more about NextJS.",
+    url: "https://raffeys-todo-app.vercel.app//",
   },
 ];
 
